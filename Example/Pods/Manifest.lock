@@ -1,16 +1,27 @@
 PODS:
-  - AMZNotificationManager (0.1.0)
+  - AMZNotificationManager (1.0.0)
+  - AppmazoFoundation (1.0.1)
+  - AppmazoUIKit (1.0.6):
+    - AppmazoFoundation (~> 1.0.1)
 
 DEPENDENCIES:
   - AMZNotificationManager (from `../`)
+  - AppmazoUIKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppmazoFoundation
+    - AppmazoUIKit
 
 EXTERNAL SOURCES:
   AMZNotificationManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMZNotificationManager: 690a6ba9d477589c1001ab679526d527c90fde37
+  AMZNotificationManager: 90dd6b76a17319521849458b8a2a91d40a2c5311
+  AppmazoFoundation: 2b66a952d7a3a00ea77358ebc7171a8355002ecf
+  AppmazoUIKit: 8a29e916ef1575fed28b16228e84dba8c75e6a89
 
-PODFILE CHECKSUM: bc27b7fe78e10614195a5dd0552c2e899dc6840e
+PODFILE CHECKSUM: 9c0227831ae46e139a44a1e4e5a33c412c3aa59a
 
 COCOAPODS: 1.5.3

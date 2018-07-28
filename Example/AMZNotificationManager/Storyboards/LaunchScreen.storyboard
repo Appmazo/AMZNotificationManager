@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x3K-0A-rEn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="JAm-j5-PI2">
+            <objects>
+                <viewController id="x3K-0A-rEn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dx9-oP-c6P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-a-light" translatesAutoresizingMaskIntoConstraints="NO" id="JJt-l6-P7s">
+                                <rect key="frame" x="137" y="270" width="100" height="126"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="Rl2-lZ-xvd"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="aCb-qw-5oI"/>
+                                    <constraint firstAttribute="width" constant="100" id="fbN-Ti-a6q"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="126" id="skG-ym-nsl"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="wQa-GU-3QA"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="126" id="xxT-Gx-uFx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JJt-l6-P7s" firstAttribute="centerY" secondItem="dx9-oP-c6P" secondAttribute="centerY" id="abM-xf-WKo"/>
+                            <constraint firstItem="JJt-l6-P7s" firstAttribute="centerX" secondItem="dx9-oP-c6P" secondAttribute="centerX" id="n4U-vN-mM9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vlF-Yn-14I"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0jU-bB-be4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="414" y="-145"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo-a-light" width="200" height="250"/>
+    </resources>
+</document>

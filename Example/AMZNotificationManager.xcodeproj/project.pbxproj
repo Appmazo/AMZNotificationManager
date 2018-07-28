@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1832270D210BF22900F59E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18322705210BF22900F59E8D /* Images.xcassets */; };
+		1832270E210BF22900F59E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18322707210BF22900F59E8D /* Main.storyboard */; };
+		1832270F210BF22900F59E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832270A210BF22900F59E8D /* AppDelegate.swift */; };
+		18322712210BF24A00F59E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18322711210BF24A00F59E8D /* LaunchScreen.storyboard */; };
+		18322715210BF2F900F59E8D /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18322714210BF2F900F59E8D /* ExampleTableViewController.swift */; };
 		3723272C7A0B254F6CFA1FB2 /* Pods_AMZNotificationManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E8355DEE52651A4B922B87 /* Pods_AMZNotificationManager_Example.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		EB3EB01D65444E58BA57F31F /* Pods_AMZNotificationManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB31485A463E7B407B13AE5 /* Pods_AMZNotificationManager_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -28,16 +28,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18322705210BF22900F59E8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18322707210BF22900F59E8D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1832270A210BF22900F59E8D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1832270C210BF22900F59E8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18322711210BF24A00F59E8D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18322714210BF2F900F59E8D /* ExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
 		1BB31485A463E7B407B13AE5 /* Pods_AMZNotificationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMZNotificationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5830BE162FA7D17E1322096D /* Pods-AMZNotificationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMZNotificationManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMZNotificationManager_Tests/Pods-AMZNotificationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E83444786B291B15625553A /* Pods-AMZNotificationManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMZNotificationManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMZNotificationManager_Example/Pods-AMZNotificationManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AMZNotificationManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMZNotificationManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* AMZNotificationManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMZNotificationManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -69,11 +69,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18322703210BF21E00F59E8D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				18322704210BF22900F59E8D /* Assets */,
+				18322708210BF22900F59E8D /* Controllers */,
+				18322706210BF22900F59E8D /* Storyboards */,
+				1832270B210BF22900F59E8D /* Supporting Files */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		18322704210BF22900F59E8D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				18322705210BF22900F59E8D /* Images.xcassets */,
+			);
+			name = Assets;
+			path = AMZNotificationManager/Assets;
+			sourceTree = "<group>";
+		};
+		18322706210BF22900F59E8D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				18322707210BF22900F59E8D /* Main.storyboard */,
+				18322711210BF24A00F59E8D /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			path = AMZNotificationManager/Storyboards;
+			sourceTree = "<group>";
+		};
+		18322708210BF22900F59E8D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18322709210BF22900F59E8D /* Logic Controllers */,
+				18322713210BF2CE00F59E8D /* View Controllers */,
+			);
+			name = Controllers;
+			path = AMZNotificationManager/Controllers;
+			sourceTree = "<group>";
+		};
+		18322709210BF22900F59E8D /* Logic Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1832270A210BF22900F59E8D /* AppDelegate.swift */,
+			);
+			path = "Logic Controllers";
+			sourceTree = "<group>";
+		};
+		1832270B210BF22900F59E8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1832270C210BF22900F59E8D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = "AMZNotificationManager/Supporting Files";
+			sourceTree = "<group>";
+		};
+		18322713210BF2CE00F59E8D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18322714210BF2F900F59E8D /* ExampleTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				18322703210BF21E00F59E8D /* Example */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for AMZNotificationManager */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				DBE20CB308AF9FEED79CEEE4 /* Pods */,
@@ -88,28 +153,6 @@
 				607FACE51AFB9204008FA782 /* AMZNotificationManager_Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACD21AFB9204008FA782 /* Example for AMZNotificationManager */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
-			);
-			name = "Example for AMZNotificationManager";
-			path = AMZNotificationManager;
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACE81AFB9204008FA782 /* Tests */ = {
@@ -207,7 +250,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -245,9 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				1832270D210BF22900F59E8D /* Images.xcassets in Resources */,
+				18322712210BF24A00F59E8D /* LaunchScreen.storyboard in Resources */,
+				1832270E210BF22900F59E8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,10 +348,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AMZNotificationManager_Example/Pods-AMZNotificationManager_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AMZNotificationManager/AMZNotificationManager.framework",
+				"${BUILT_PRODUCTS_DIR}/AppmazoFoundation/AppmazoFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/AppmazoUIKit/AppmazoUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMZNotificationManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppmazoFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppmazoUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -322,8 +369,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				18322715210BF2F900F59E8D /* ExampleTableViewController.swift in Sources */,
+				1832270F210BF22900F59E8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,25 +392,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -377,12 +405,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -410,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -430,12 +460,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -456,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -469,7 +501,7 @@
 			baseConfigurationReference = 5E83444786B291B15625553A /* Pods-AMZNotificationManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AMZNotificationManager/Info.plist;
+				INFOPLIST_FILE = "AMZNotificationManager/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -484,7 +516,7 @@
 			baseConfigurationReference = E4A14AF6A9441330F419B3C0 /* Pods-AMZNotificationManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AMZNotificationManager/Info.plist;
+				INFOPLIST_FILE = "AMZNotificationManager/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -498,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5830BE162FA7D17E1322096D /* Pods-AMZNotificationManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9F47821D163EBF707180A05 /* Pods-AMZNotificationManager_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,22 +1,24 @@
 {
   "name": "AMZNotificationManager",
-  "version": "0.1.0",
-  "summary": "A short description of AMZNotificationManager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/jhickmanEB/AMZNotificationManager",
+  "version": "1.0.0",
+  "summary": "A simple way to manage notifications in your app",
+  "swift_version": "4.1",
+  "description": "AMZNotificationManager is a simple way to easily manage push notifications within your app.",
+  "homepage": "https://github.com/Appmazo/AMZNotificationManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "jhickmanEB": "jhickman@ebates.com"
+    "Appmazo LLC": "jhickman@appmazo.com"
   },
   "source": {
-    "git": "https://github.com/jhickmanEB/AMZNotificationManager.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Appmazo/AMZNotificationManager.git",
+    "tag": "1.0.0"
   },
+  "social_media_url": "https://twitter.com/appmazo",
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "AMZNotificationManager/Classes/**/*"
+  "source_files": "AMZNotificationManager/Classes/**/*.*"
 }

@@ -1,7 +1,9 @@
+platform :ios, '11.0'
 use_frameworks!
 
 target 'AMZNotificationManager_Example' do
   pod 'AMZNotificationManager', :path => '../'
+  pod 'AppmazoUIKit'
 
   target 'AMZNotificationManager_Tests' do
     inherit! :search_paths
