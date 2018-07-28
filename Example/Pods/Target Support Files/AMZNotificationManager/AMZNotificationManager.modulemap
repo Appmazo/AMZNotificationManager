@@ -1,0 +1,6 @@
+framework module AMZNotificationManager {
+  umbrella header "AMZNotificationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

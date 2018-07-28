@@ -1,0 +1,16 @@
+PODS:
+  - AMZNotificationManager (0.1.0)
+
+DEPENDENCIES:
+  - AMZNotificationManager (from `../`)
+
+EXTERNAL SOURCES:
+  AMZNotificationManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMZNotificationManager: 690a6ba9d477589c1001ab679526d527c90fde37
+
+PODFILE CHECKSUM: bc27b7fe78e10614195a5dd0552c2e899dc6840e
+
+COCOAPODS: 1.5.3

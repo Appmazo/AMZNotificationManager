@@ -1,0 +1,22 @@
+{
+  "name": "AMZNotificationManager",
+  "version": "0.1.0",
+  "summary": "A short description of AMZNotificationManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jhickmanEB/AMZNotificationManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jhickmanEB": "jhickman@ebates.com"
+  },
+  "source": {
+    "git": "https://github.com/jhickmanEB/AMZNotificationManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AMZNotificationManager/Classes/**/*"
+}

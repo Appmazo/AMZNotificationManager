@@ -1,6 +1,6 @@
 # AMZNotificationManager
 
-[![CI Status](https://img.shields.io/travis/jhickmanEB/AMZNotificationManager.svg?style=flat)](https://travis-ci.org/jhickmanEB/AMZNotificationManager)
+[![CI Status](https://img.shields.io/travis/appmazo/AMZNotificationManager.svg?style=flat)](https://travis-ci.com/appmazo/AMZNotificationManager)
 [![Version](https://img.shields.io/cocoapods/v/AMZNotificationManager.svg?style=flat)](https://cocoapods.org/pods/AMZNotificationManager)
 [![License](https://img.shields.io/cocoapods/l/AMZNotificationManager.svg?style=flat)](https://cocoapods.org/pods/AMZNotificationManager)
 [![Platform](https://img.shields.io/cocoapods/p/AMZNotificationManager.svg?style=flat)](https://cocoapods.org/pods/AMZNotificationManager)
@@ -22,7 +22,7 @@ pod 'AMZNotificationManager'
 
 ## Author
 
-jhickmanEB, jhickman@ebates.com
+Appmazo LLC, jhickman@appmazo.com
 
 ## License
 

@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  AMZNotificationManager
 //
-//  Created by jhickmanEB on 07/27/2018.
-//  Copyright (c) 2018 jhickmanEB. All rights reserved.
+//  Created by James Hickman on 07/27/2018.
+//  Copyright (c) 2018 Appmazo LLC. All rights reserved.
 //
 
 import UIKit
